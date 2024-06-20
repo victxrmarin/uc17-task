@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+
+    <script src="index.js" defer></script>
     <title>Document</title>
 </head>
 
@@ -12,21 +14,25 @@
     <!--Cabeçalho-->
     <header>
         <img id="img-header" src="./assets/cd.png">
-        <nav>
+        <nav id="drop">
             <li>CONTATO</li>
             <li>ENTRAR</li>
             <li>MATRICULAR</li>
         </nav>
+        <button id="btn-drop">MENU</button>
     </header>
 
     <main>
-        <section id="first-page">
-            <div id="welcome-box">
-                <h1>BEM VINDO À CENTRAL DE ATENDIMENTO DA CD</h1>
-                <p>TODO O SUPORTE EM UM SÓ LUGAR</p>
-                <button>SAIBA MAIS</button>
-            </div>
-        </section>
+ 
+            <section id="first-page">
+                <div id="welcome-box">
+                    <h1>BEM VINDO À CENTRAL DE ATENDIMENTO DA CD</h1>
+                    <p>TODO O SUPORTE EM UM SÓ LUGAR</p>
+                    <button>SAIBA MAIS</button>
+                </div>
+            </section>
+     
+
         <section id="carousel">
             <div class="item-box">
                 <img src="/assets/1.jpg" alt="">
@@ -53,13 +59,35 @@
         <section id="about-us">
             <div id="about-text">
                 <h1>Lorem</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat optio repellat id alias provident eum quaerat fugit doloremque. Omnis neque at modi, tempora fugit voluptatum in asperiores mollitia laboriosam quo?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed facilis voluptas nam nulla dolores
+                    commodi praesentium laborum ipsum est amet! Molestias assumenda totam officia error saepe placeat
+                    suscipit incidunt quae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam error eius
+                    id non voluptates maxime magni vitae! Fugiat, error? Assumenda eius mollitia maiores totam odio
+                    itaque facilis tempore distinctio nisi? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fugiat optio repellat id alias provident eum quaerat fugit doloremque. Omnis neque at modi, tempora
+                    fugit voluptatum in asperiores mollitia laboriosam quo?</p>
             </div>
             <div id="about-img"></div>
         </section>
+        <section id="three-img">
+            <img src="./assets/im1.jpg" alt="">
+            <img src="./assets/im2.jpg" alt="">
+            <img src="./assets/im3.jpg" alt="">
+        </section>
+        <section id="forms">
+            <form>
+                <label for="fname">Nome</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Telefone</label><br>
+                <input type="text" id="lname" name="lname">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste deserunt, ea dolores voluptate quod
+                    fuga a ut fugit laborum.</p>
+                <button>ENVIAR</button>
+            </form>
+        </section>
     </main>
     <footer>
-       
+
     </footer>
 </body>
 
